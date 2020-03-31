@@ -2,7 +2,7 @@
 
 function preload(){
   sound = loadSound('music.mp3');
- 
+}
    // start / stop the sound when canvas is clicked
   cnv.mouseClicked(function() {
     if (sound.isPlaying() ){
@@ -74,4 +74,4 @@ function preload(){
     xoff = 0;
     count = 0;
   
-  }}
+  }
