@@ -1,20 +1,5 @@
- let sound, amplitude, cnv;
 
-function preload(){
-  sound = loadSound('music.mp3');
-}
-   // start / stop the sound when canvas is clicked
-  cnv.mouseClicked(function() {
-    if (sound.isPlaying() ){
-      sound.stop();
-    } else {
-      sound.play();
-    }
-  });
- 
- 
- 
-  let yInc = amplitude //time
+  let yInc = 0.002 //time
   let xInc = 0.05; //angles
   let xoff = 0;
   let yoff = 0;
