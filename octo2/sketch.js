@@ -74,4 +74,4 @@ function preload(){
     xoff = 0;
     count = 0;
   
-  }
+  }}
